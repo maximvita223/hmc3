@@ -21,7 +21,7 @@ void ShowArray(int[] array)
 
 // Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
 Console.Clear();
-int[] myArray = CreateRandomArray(45, 100, 1000);
+int[] myArray = CreateRandomArray(45, 100, 998);
 int count = 0;
 for (int i = 0; i < myArray.Length; i++)
 {
