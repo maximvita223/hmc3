@@ -23,11 +23,16 @@ Console.Clear();
 int[] myArray = CreateRandomArray(6, 1, 1000);
 ShowArray(myArray);
 int sum = 0;
+int count= 0;
 for (int i = 0; i < myArray.Length; i++)
 {
     if (i % 2 == 0) 
     {
-        sum += myArray[i]; 
+        count++; 
+    }
+    else
+    {
+        sum += myArray[i];
     }
 }
 Console.WriteLine(sum);
